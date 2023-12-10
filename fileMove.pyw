@@ -2,11 +2,6 @@ import os
 import tkinter as tk
 
 
-source = r"C:\Users\bobea\Desktop"
-destination = r"C:\Users\bobea\Desktop\PDF" + "\\"
-musicDestination = r"C:\Users\bobea\Desktop\songs" + "\\"
-
-
 def fileMove(firstLocation, destinationInput, fileType):
     output = ''
     try:
